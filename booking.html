@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Session - Danilo Photo Studio</title>
+    <meta name="description" content="Book your photography or videography session with Danilo Photo Studio. Select packages, dates, and customize your experience.">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS (Animate On Scroll) CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Professional Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scrolled">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa-solid fa-camera-retro me-2 text-gold"></i>DANILO <span>STUDIO</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="coaching.html">Coaching</a></li>
+                    <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating Social Sidebar -->
+    <div class="social-sidebar">
+        <a href="https://instagram.com" target="_blank" class="social-sidebar-btn" title="Follow on Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank" class="social-sidebar-btn" title="Follow on Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank" class="social-sidebar-btn" title="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Inner Page Header -->
+    <header class="page-header" style="background-image: url('assets/images/hero_wedding.png');">
+        <div class="page-header-content" data-aos="fade-up">
+            <h1 class="page-title text-uppercase">Book A Session</h1>
+            <div class="breadcrumb-custom">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Booking</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Booking Form Section -->
+    <section class="section-padding bg-dark-black">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-subtitle">Reserve Your Slot</span>
+                <h2 class="section-title">Online Appointment Booking</h2>
+                <p class="text-gray mx-auto" style="max-width: 600px;">Fill out the form below to lock in your date. Our creative director will contact you within 24 hours to organize styling details.</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+                    <div class="booking-form-wrapper">
+                        <form id="bookingForm" class="needs-validation" novalidate>
+                            <div class="row">
+                                <!-- Full Name -->
+                                <div class="col-md-6 form-group-custom">
+                                    <label for="fullName" class="form-label-custom">Full Name *</label>
+                                    <input type="text" class="form-control-custom" id="fullName" placeholder="Enter your full name" required>
+                                    <div class="invalid-feedback text-gold small">Please enter your name.</div>
+                                </div>
+                                <!-- Phone Number -->
+                                <div class="col-md-6 form-group-custom">
+                                    <label for="phoneNumber" class="form-label-custom">Phone Number *</label>
+                                    <input type="tel" class="form-control-custom" id="phoneNumber" placeholder="e.g. +39 333 123 4567" required>
+                                    <div class="invalid-feedback text-gold small">Please enter your phone number.</div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <!-- Email Address -->
+                                <div class="col-md-6 form-group-custom">
+                                    <label for="emailAddress" class="form-label-custom">Email Address *</label>
+                                    <input type="email" class="form-control-custom" id="emailAddress" placeholder="name@domain.com" required>
+                                    <div class="invalid-feedback text-gold small">Please enter a valid email address.</div>
+                                </div>
+                                <!-- Event Type -->
+                                <div class="col-md-6 form-group-custom">
+                                    <label for="eventType" class="form-label-custom">Event Type *</label>
+                                    <select class="form-control-custom" id="eventType" required>
+                                        <option value="" disabled selected>Select event category</option>
+                                        <option value="Wedding">Wedding Shoot</option>
+                                        <option value="Pre-Wedding">Pre-Wedding Shoot</option>
+                                        <option value="Engagement">Engagement Shoot</option>
+                                        <option value="Birthday">Birthday Event</option>
+                                        <option value="Baby">Baby / Maternity portrait</option>
+                                        <option value="Family">Family / Couple portrait</option>
+                                        <option value="Portfolio">Portfolio / Product Shoot</option>
+                                        <option value="Coaching">Academy Coaching</option>
+                                        <option value="Other">Other / Custom Event</option>
+                                    </select>
+                                    <div class="invalid-feedback text-gold small">Please select an event type.</div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <!-- Event Date -->
+                                <div class="col-md-6 form-group-custom">
+                                    <label for="eventDate" class="form-label-custom">Event Date *</label>
+                                    <input type="date" class="form-control-custom" id="eventDate" required>
+                                    <div class="invalid-feedback text-gold small">Please select a valid date.</div>
+                                </div>
+                                <!-- Event Time -->
+                                <div class="col-md-6 form-group-custom">
+                                    <label for="eventTime" class="form-label-custom">Preferred Time *</label>
+                                    <input type="time" class="form-control-custom" id="eventTime" required>
+                                    <div class="invalid-feedback text-gold small">Please select a preferred slot time.</div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <!-- Location -->
+                                <div class="col-md-6 form-group-custom">
+                                    <label for="location" class="form-label-custom">Location / Studio address *</label>
+                                    <input type="text" class="form-control-custom" id="location" placeholder="e.g. In-Studio, or Out-of-Studio address" required>
+                                    <div class="invalid-feedback text-gold small">Please enter event location details.</div>
+                                </div>
+                                <!-- Photography Package -->
+                                <div class="col-md-6 form-group-custom">
+                                    <label for="bookingPackage" class="form-label-custom">Photography Package *</label>
+                                    <select class="form-control-custom" id="bookingPackage" required>
+                                        <option value="" disabled selected>Select pricing plan</option>
+                                        <option value="Basic">Basic Package - $299</option>
+                                        <option value="Standard">Standard Package - $599</option>
+                                        <option value="Premium">Premium Package - $999</option>
+                                        <option value="Luxury">Luxury Package - $1,799</option>
+                                        <option value="Coaching">Coaching / Academy Program</option>
+                                        <option value="Custom">Custom / Hourly Coverage</option>
+                                    </select>
+                                    <div class="invalid-feedback text-gold small">Please select a package plan.</div>
+                                </div>
+                            </div>
+                            
+                            <!-- Special Requirements -->
+                            <div class="form-group-custom">
+                                <label for="specialReqs" class="form-label-custom">Special Requirements / Theme requests</label>
+                                <textarea class="form-control-custom" id="specialReqs" rows="4" placeholder="Mention props, style settings, poses, colors or custom schedules you need..."></textarea>
+                            </div>
+                            
+                            <!-- Form Buttons -->
+                            <div class="d-flex flex-sm-row flex-column gap-3 mt-4">
+                                <button type="submit" class="btn btn-gold px-5 py-3">Submit Booking</button>
+                                <button type="reset" class="btn btn-dark-premium px-5 py-3">Reset Form</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beautiful Popup Notification Modal Overlay -->
+    <div id="modalOverlay" class="premium-modal-overlay">
+        <div class="premium-modal">
+            <div class="modal-icon-success">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <h2 id="modalTitle" class="modal-title-custom">Booking Received!</h2>
+            <p id="modalText" class="modal-text-custom">✅ Thank you for booking Danilo Photo Studio. Your booking has been successfully received. Our team will contact you shortly to confirm your appointment.</p>
+            <button id="closeModalBtn" class="btn btn-gold px-5 py-2">Close</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <!-- Column 1: Branding -->
+                <div class="col-lg-4 col-md-6">
+                    <a class="footer-logo" href="index.html">
+                        <i class="fa-solid fa-camera-retro me-2 text-gold"></i>DANILO <span>STUDIO</span>
+                    </a>
+                    <p class="footer-desc">Specializing in capturing unforgettable memories with creativity and absolute professionalism. Capturing history, one lens splash at a time.</p>
+                    <div class="footer-social-icons">
+                        <a href="https://instagram.com" target="_blank" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank" class="footer-social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://wa.me/1234567890" target="_blank" class="footer-social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Column 2: Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Studio</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="coaching.html">Coaching Program</a></li>
+                        <li><a href="booking.html">Book Session</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Services Offered -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Our Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Wedding Photography</a></li>
+                        <li><a href="services.html">Pre-Wedding Shoots</a></li>
+                        <li><a href="services.html">Cinematic Videography</a></li>
+                        <li><a href="services.html">Drone Event Shoots</a></li>
+                        <li><a href="services.html">Luxury Product Shoots</a></li>
+                        <li><a href="services.html">Album Designing & Editing</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4: Contact Details -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Studio Contact</h5>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>123 Elegance Boulevard, Suite 500, Milan, Italy</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+39 02 1234 5678</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>info@danilophotostudio.com</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-clock"></i>
+                            <span>Mon - Sat: 09:00 AM - 07:00 PM<br>Sunday: Closed</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2026 Danilo Photo Studio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS JS for Animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 120
+        });
+    </script>
+    
+    <!-- Custom Main JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

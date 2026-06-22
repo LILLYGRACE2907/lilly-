@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Danilo Photo Studio</title>
+    <meta name="description" content="Capture every beautiful moment with Danilo Photo Studio. We provide professional photography, videography, editing, and creative coaching.">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS (Animate On Scroll) CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Professional Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa-solid fa-camera-retro me-2 text-gold"></i>DANILO <span>STUDIO</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="coaching.html">Coaching</a></li>
+                    <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-lg-none mt-3 footer-social-icons">
+                    <a href="https://instagram.com" target="_blank" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank" class="footer-social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://wa.me/1234567890" target="_blank" class="footer-social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating Social Sidebar -->
+    <div class="social-sidebar">
+        <a href="https://instagram.com" target="_blank" class="social-sidebar-btn" title="Follow on Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank" class="social-sidebar-btn" title="Follow on Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank" class="social-sidebar-btn" title="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+<style>
+
+.hero{
+    height:100vh;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/049/855/871/small/stunning-high-resolution-nature-and-landscape-backgrounds-breathtaking-scenery-in-hd-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content{
+    background: rgba(0,0,0,0.5);
+    padding:30px;
+    border-radius:10px;
+    color:white;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero p{
+    font-size:22px;
+}
+
+.book-btn{
+  background-color:#ff6b35;
+  color:white;
+
+  padding:15px 30px;
+
+  font-size:18px;
+  font-weight:bold;
+
+  border:none;
+
+  border-radius:30px;
+
+  cursor:pointer;
+
+  transition:0.3s ease;
+}
+
+/* Hover Effect */
+
+.book-btn:hover{
+
+  background-color:#e85a2a;
+
+  transform:translateY(-3px);
+
+  box-shadow:0 8px 20px rgba(0,0,0,0.3);
+
+}
+
+</style>
+
+
+
+
+
+
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Capture Every Beautiful Moment with Photo Studio</h1>
+
+<p>Professional Photography, Videography, Editing & Creative Coaching Services.</p>
+<button class="book-btn">
+<a href="booking.html">book now</a>
+</button>
+
+
+</div>
+
+</section>
+
+
+    <!-- Statistics Counter Section -->
+    <section id="statistics" class="section-padding bg-dark-gray">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="500">0+</div>
+                        <div class="stat-label">Shoots Completed</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10">0+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="15">0+</div>
+                        <div class="stat-label">Awards Won</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="98">0+</div>
+                        <div class="stat-label">Happy Clients </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Works Section (Filtered Gallery) -->
+    <section class="section-padding bg-dark-black">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-subtitle">Aesthetic Gallery</span>
+                <h2 class="section-title">Our Latest Works</h2>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="gallery-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="wedding">Wedding</button>
+                <button class="filter-btn" data-filter="portrait">Portrait</button>
+                <button class="filter-btn" data-filter="product">Product</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="row g-4" data-aos="fade-up">
+                <!-- Gallery 1 -->
+                <div class="col-lg-4 col-md-6 gallery-item-wrapper wedding">
+                    <div class="gallery-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCFxnRunpPumWM2BoVZPhO_-wUzNnI6gB3e0cl76ah2U902qnP-GPYje8&s=10" alt="Wedding Shoot">
+                        <div class="gallery-item-info">
+                            <span class="gallery-category">Wedding</span>
+                            <h4 class="gallery-title">Eternal Sunset Love</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery 2 -->
+                <div class="col-lg-4 col-md-6 gallery-item-wrapper portrait">
+                    <div class="gallery-item">
+                        <img src="https://previews.123rf.com/images/inarik/inarik2210/inarik221000033/193347049-fashion-woman-in-golden-sequin-dress-beautiful-model-in-evening-long-glitter-gown-over-gold-shiny.jpg" alt="Portrait Shoot">
+                        <div class="gallery-item-info">
+                            <span class="gallery-category">Portrait</span>
+                            <h4 class="gallery-title">Golden Glamour</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery 3 -->
+                <div class="col-lg-4 col-md-6 gallery-item-wrapper product">
+                    <div class="gallery-item">
+                        <img src="https://png.pngtree.com/thumb_back/fh260/background/20260305/pngtree-modern-luxury-black-chronograph-men-s-watch-on-dark-reflective-surface-image_21524220.webp" alt="Product Shoot">
+                        <div class="gallery-item-info">
+                            <span class="gallery-category">Product</span>
+                            <h4 class="gallery-title">Chronograph Splash</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery 4 (Fallback/Re-use wedding) -->
+                <div class="col-lg-4 col-md-6 gallery-item-wrapper wedding">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1631621583126-ed10a80f62b1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJlJTIwd2VkZGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="Wedding Shoot 2">
+                        <div class="gallery-item-info">
+                            <span class="gallery-category">Wedding</span>
+                            <h4 class="gallery-title">Luxury Pre-Wedding</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery 5 (Fallback/Re-use portrait) -->
+                <div class="col-lg-4 col-md-6 gallery-item-wrapper portrait">
+                    <div class="gallery-item">
+                        <img src="https://png.pngtree.com/background/20250104/original/pngtree-high-contrast-studio-setup-with-professional-lighting-equipment-picture-image_16137992.jpg" alt="Portrait Shoot 2">
+                        <div class="gallery-item-info">
+                            <span class="gallery-category">Portrait</span>
+                            <h4 class="gallery-title">Studio High Contrast</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery 6 (Fallback/Re-use product) -->
+                <div class="col-lg-4 col-md-6 gallery-item-wrapper product">
+                    <div class="gallery-item">
+                        <img src="https://png.pngtree.com/png-vector/20260314/ourmid/pngtree-luxury-shopping-bags-and-gold-credit-card-with-high-end-product-png-image_18923568.webp" alt="Product Shoot 2">
+                        <div class="gallery-item-info">
+                            <span class="gallery-category">Product</span>
+                            <h4 class="gallery-title">Luxury Goods Catalog</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Packages Section -->
+    <section class="section-padding bg-dark-gray">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-subtitle">Choose Your Experience</span>
+                <h2 class="section-title">Photography Packages</h2>
+            </div>
+            
+            <div class="row g-4 justify-content-center">
+                <!-- Basic Package -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="pricing-card">
+                        <h3 class="package-name">Basic Plan</h3>
+                        <div class="package-price">299<span> / session</span></div>
+                        <ul class="package-features">
+                            <li><i class="fa-solid fa-check"></i>2 Hours Session</li>
+                            <li><i class="fa-solid fa-check"></i>15 Edited Photos</li>
+                            <li><i class="fa-solid fa-check"></i>Online Gallery Access</li>
+                            <li><i class="fa-solid fa-check"></i>1 Photographer</li>
+                            <li><i class="fa-solid fa-xmark text-muted"></i>No Cinematic Video</li>
+                        </ul>
+                        <a href="booking.html?package=Basic" class="btn btn-outline-gold w-100">Book Now</a>
+                    </div>
+                </div>
+                <!-- Standard Package -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-card">
+                        <h3 class="package-name">Standard Plan</h3>
+                        <div class="package-price">599<span> / session</span></div>
+                        <ul class="package-features">
+                            <li><i class="fa-solid fa-check"></i>4 Hours Session</li>
+                            <li><i class="fa-solid fa-check"></i>30 Edited Photos</li>
+                            <li><i class="fa-solid fa-check"></i>Online Gallery Access</li>
+                            <li><i class="fa-solid fa-check"></i>1 Photographer + 1 Assistant</li>
+                            <li><i class="fa-solid fa-check"></i>1 Minute Social Reel</li>
+                        </ul>
+                        <a href="booking.html?package=Standard" class="btn btn-outline-gold w-100">Book Now</a>
+                    </div>
+                </div>
+                <!-- Premium Package (Highlighted) -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pricing-card popular">
+                        <span class="badge-popular">Best Value</span>
+                        <h3 class="package-name text-gold">Premium Plan</h3>
+                        <div class="package-price text-gold">999<span> / session</span></div>
+                        <ul class="package-features text-light">
+                            <li><i class="fa-solid fa-check"></i>8 Hours Session</li>
+                            <li><i class="fa-solid fa-check"></i>60 Edited Photos</li>
+                            <li><i class="fa-solid fa-check"></i>1 Premium Photo Album</li>
+                            <li><i class="fa-solid fa-check"></i>2 Photographers</li>
+                            <li><i class="fa-solid fa-check"></i>Cinematic Video Highlight</li>
+                        </ul>
+                        <a href="booking.html?package=Premium" class="btn btn-gold w-100">Book Now</a>
+                    </div>
+                </div>
+                <!-- Luxury Package -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-left" data-aos-delay="400">
+                    <div class="pricing-card">
+                        <h3 class="package-name">Luxury Plan</h3>
+                        <div class="package-price">1,799<span> / session</span></div>
+                        <ul class="package-features">
+                            <li><i class="fa-solid fa-check"></i>Full Event Coverage</li>
+                            <li><i class="fa-solid fa-check"></i>All Raw + 100 Edited Photos</li>
+                            <li><i class="fa-solid fa-check"></i>2 Premium Albums</li>
+                            <li><i class="fa-solid fa-check"></i>3 Photographers + Drone Shoot</li>
+                            <li><i class="fa-solid fa-check"></i>Full Cinematic Movie</li>
+                        </ul>
+                        <a href="booking.html?package=Luxury" class="btn btn-outline-gold w-100">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section-padding bg-dark-black">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-subtitle">Client Stories</span>
+                <h2 class="section-title">What They Say About Us</h2>
+            </div>
+            
+            <div class="row justify-content-center" data-aos="zoom-in">
+                <div class="col-lg-8">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner testimonial-carousel">
+                            <!-- Testimonial 1 -->
+                            <div class="carousel-item active">
+                                <div class="testimonial-item">
+                                    <p class="testimonial-text">"Danilo and his team made our wedding day look like a fairy tale. The gold sunset couple shoots are out of this world! They were professional, discreet, and incredibly creative."</p>
+                                    <h5 class="testimonial-author">Sophia & Liam Watson</h5>
+                                    <span class="testimonial-role">Wedding Session Client</span>
+                                </div>
+                            </div>
+                            <!-- Testimonial 2 -->
+                            <div class="carousel-item">
+                                <div class="testimonial-item">
+                                    <p class="testimonial-text">"The product photography service completely revamped our brand catalog. The lighting techniques and reflections on our luxury watch line was highly professional."</p>
+                                    <h5 class="testimonial-author">Marcus Sterling</h5>
+                                    <span class="testimonial-role">Branding Director, Chrono Co.</span>
+                                </div>
+                            </div>
+                            <!-- Testimonial 3 -->
+                            <div class="carousel-item">
+                                <div class="testimonial-item">
+                                    <p class="testimonial-text">"I enrolled in their Photography Basics and Lighting Technique courses. The hands-on training completely changed how I handle camera settings. Best coaching in town!"</p>
+                                    <h5 class="testimonial-author">Elena Rostova</h5>
+                                    <span class="testimonial-role">Coaching Student</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial indicators -->
+                        <div class="d-flex justify-content-center gap-2 mt-4">
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active filter-btn px-3 py-1 text-xs" style="width: auto; height: auto;">1</button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" class="filter-btn px-3 py-1 text-xs" style="width: auto; height: auto;">2</button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" class="filter-btn px-3 py-1 text-xs" style="width: auto; height: auto;">3</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-padding bg-dark-gray">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-subtitle">Got Questions?</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <div class="accordion faq-accordion" id="faqAccordion">
+                        <!-- FAQ 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How far in advance should I book my session?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We recommend booking your studio or portrait session at least 2-4 weeks in advance. For weddings and major corporate events, we advise booking 3-6 months beforehand to guarantee photographer availability.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    When will I receive my edited photos?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Standard edits are delivered via our premium online gallery within 10 to 14 business days. Wedding and cinematic video packages can take between 4 to 6 weeks, as they undergo a thorough, high-end color grading and sorting phase.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Can we request raw, unedited footage or photo files?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Raw files represent an unfinished product. Under standard packages, we only supply professionally curated and edited images. However, our Luxury package includes the complete set of high-resolution RAW images for professional archiving.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <!-- Column 1: Branding -->
+                <div class="col-lg-4 col-md-6">
+                    <a class="footer-logo" href="index.html">
+                        <i class="fa-solid fa-camera-retro me-2 text-gold"></i>DANILO <span>STUDIO</span>
+                    </a>
+                    <p class="footer-desc">Specializing in capturing unforgettable memories with creativity and absolute professionalism. Capturing history, one lens splash at a time.</p>
+                    <div class="footer-social-icons">
+                        <a href="https://instagram.com" target="_blank" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank" class="footer-social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://wa.me/1234567890" target="_blank" class="footer-social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Column 2: Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Studio</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="coaching.html">Coaching Program</a></li>
+                        <li><a href="booking.html">Book Session</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Services Offered -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Our Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Wedding Photography</a></li>
+                        <li><a href="services.html">Pre-Wedding Shoots</a></li>
+                        <li><a href="services.html">Cinematic Videography</a></li>
+                        <li><a href="services.html">Drone Event Shoots</a></li>
+                        <li><a href="services.html">Luxury Product Shoots</a></li>
+                        <li><a href="services.html">Album Designing & Editing</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4: Contact Details -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Studio Contact</h5>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>123 Elegance Boulevard, Suite 500, Milan, Italy</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+39 02 1234 5678</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>info@danilophotostudio.com</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-clock"></i>
+                            <span>Mon - Sat: 09:00 AM - 07:00 PM<br>Sunday: Closed</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2026 Danilo Photo Studio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 Bundle JS (Includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS JS for Animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 120
+        });
+    </script>
+    
+    <!-- Custom Main JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+             
+    

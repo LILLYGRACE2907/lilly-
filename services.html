@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Danilo Photo Studio</title>
+    <meta name="description" content="Explore professional wedding, portrait, product photography, cinematic videography, and album editing services by Danilo Photo Studio.">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS (Animate On Scroll) CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Professional Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scrolled">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa-solid fa-camera-retro me-2 text-gold"></i>DANILO <span>STUDIO</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="coaching.html">Coaching</a></li>
+                    <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating Social Sidebar -->
+    <div class="social-sidebar">
+        <a href="https://instagram.com" target="_blank" class="social-sidebar-btn" title="Follow on Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank" class="social-sidebar-btn" title="Follow on Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank" class="social-sidebar-btn" title="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Inner Page Header -->
+    <header class="page-header" style="background-image: url('assets/images/hero_portrait.png');">
+        <div class="page-header-content" data-aos="fade-up">
+            <h1 class="page-title text-uppercase">Our Services</h1>
+            <div class="breadcrumb-custom">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Services</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. Photography Services Section -->
+    <section class="section-padding bg-dark-black">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-subtitle">Visual Artistry</span>
+                <h2 class="section-title">Photography Services</h2>
+                <p class="text-gray mx-auto" style="max-width: 600px;">Providing state-of-the-art photography, high-resolution edits, custom posing guides, and unmatched light balance across 10 specialized categories.</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Service 1: Wedding Photography -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://i.pinimg.com/236x/eb/41/37/eb4137cb8762513a55c08541aedb6db0.jpg" alt="Wedding Photography">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-ring fs-3"></i></div>
+                            <h4 class="service-title">Wedding Photography</h4>
+                            <p class="service-desc">Capturing the pure magic, grand architecture, emotional vows, and golden hours of your special day with classical editorial elegance.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Wedding Photography" data-content="Our wedding photography package includes complete event documentation, two lead photographers, aerial drone portraits, high-end color correction, and a luxurious print-ready photo album. We consult on styling, venues, and scheduling.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 2: Pre-Wedding Photography -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3bqLWu7IFWumbGs1AoN9K8BRvLKUihtCHRMS-NTIdGKw5hf9Kh-opd92g&s=10" alt="Pre-Wedding Shoot">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-heart-pulse fs-3"></i></div>
+                            <h4 class="service-title">Pre-Wedding Photography</h4>
+                            <p class="service-desc">Romantic storytelling shoots in scenic, customized outdoor destinations to celebrate your unique love journey prior to the main day.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Pre-Wedding Photography" data-content="Pre-wedding sessions allow you to get comfortable in front of the lens. We offer location scouting, pose guidance, outfit coordination, and create beautiful cinematic assets that can be projected during your reception.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 3: Engagement Photography -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://3.imimg.com/data3/HA/BD/MY-15442014/engagement-photography-500x500.png" alt="Engagement Shoot">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-gem fs-3"></i></div>
+                            <h4 class="service-title">Engagement Photography</h4>
+                            <p class="service-desc">Documenting that beautiful milestone second when they say 'Yes!' with candid emotional clarity and premium lighting setups.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Engagement Photography" data-content="We capture proposal setups discreetly or host engagement photo sessions. Includes 1.5 hours of shooting, 20 high-end retouched digital downloads, and print releases.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 4: Birthday Photography -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://shrikrishnaphotography.in/wp-content/uploads/2026/06/Birthday-Event-Photographer-Noida-1024x682.png" alt="Birthday Photography">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-cake-candles fs-3"></i></div>
+                            <h4 class="service-title">Birthday Photography</h4>
+                            <p class="service-desc">Vibrant snapshots of birthday celebrations, decor details, laughs, candles, and warm family moments for all age groups.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Birthday Photography" data-content="Our event coverage captures party decorations, cake cutting, group photos, and candid actions. Perfect for kids' birthdays, sweet sixteens, and major milestones.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 5: Baby Photography -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://static.vecteezy.com/system/resources/thumbnails/052/306/736/small/cute-baby-laughing-and-reaching-up-while-sitting-png.png" alt="Baby Photography">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-baby fs-3"></i></div>
+                            <h4 class="service-title">Baby Photography</h4>
+                            <p class="service-desc">Adorable newborn and toddler portrait sessions inside our heated, baby-safe studio filled with cute styling props.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Baby Photography" data-content="Newborn shoots are ideally done in the first 14 days of birth. We maintain strict hygiene, room-temperature control, and have a wide array of wraps, baskets, and backgrounds.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 6: Maternity Photography -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://static.wixstatic.com/media/46ccc2_031a5786e26041909b290b090d2f1867~mv2.jpeg/v1/fill/w_318,h_425,fp_0.56_0.22,q_90,enc_avif,quality_auto/46ccc2_031a5786e26041909b290b090d2f1867~mv2.jpeg" alt="Maternity Photography">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-person-pregnant fs-3"></i></div>
+                            <h4 class="service-title">Maternity Photography</h4>
+                            <p class="service-desc">Celebrating the glow and miracle of motherhood with graceful studio backdrop silhouettes or dreamlike outdoor forest shoots.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Maternity Photography" data-content="Best shot between 28-36 weeks. We offer access to premium gowns, custom lighting designed to accent curves, and family members are welcome to join.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 7: Family Photography -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://static.vecteezy.com/system/resources/previews/044/243/731/non_2x/happy-family-portrait-with-two-young-children-and-parents-png.png" alt="Family Photography">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-people-group fs-3"></i></div>
+                            <h4 class="service-title">Family Photography</h4>
+                            <p class="service-desc">Classic and contemporary group portraits that capture connection, multi-generational heritage, and warm family bonds.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Family Photography" data-content="Annual family portraits keep histories alive. We guide styling and colors so your group matches, capturing formal portraits along with funny candid exchanges.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 8: Couple Shoots -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://img.magnific.com/free-psd/beautiful-bride-groom-portrait-isolated_23-2151590611.jpg?semt=ais_hybrid&w=740&q=80" alt="Couple Shoots">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-face-kiss-wink-heart fs-3"></i></div>
+                            <h4 class="service-title">Couple Shoots</h4>
+                            <p class="service-desc">Fun, relaxed portrait sessions for couples celebrating anniversaries, date nights, or just capturing your everyday love bond.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Couple Shoots" data-content="We pick high-aesthetic city streets, cozy coffee shops, or fields. Includes pose coaching, 1.5 hours of studio/field time, and 25 premium digital negatives.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 9: Portfolio Shoots -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://5.imimg.com/data5/SELLER/Default/2023/1/HU/DY/RE/113926784/modeling-portfolio-photo-shoot-service-event-location-kolkata-500x500.png" alt="Portfolio Shoots">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-user-astronaut fs-3"></i></div>
+                            <h4 class="service-title">Portfolio Shoots</h4>
+                            <p class="service-desc">Professional corporate headshots or modeling portfolios curated to highlight your personality, style, and brand authority.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Portfolio Shoots" data-content="Whether you need LinkedIn headshots or modeling agency cards, we set up background swaps and tailored lighting to showcase you in your best light.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 10: Product Photography -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://png.pngtree.com/png-vector/20210602/ourmid/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg" alt="Product Photography">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-box-open fs-3"></i></div>
+                            <h4 class="service-title">Product Photography</h4>
+                            <p class="service-desc">Premium commercial and advertising catalog shoots highlighting textures, curves, and metallic reflections of fine goods.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Product Photography" data-content="High-end cataloging requires absolute lens clarity and light control. We shoot watches, jewelry, cosmetics, and tech products with mirror reflections and custom backdrop drops.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Videography Services Section -->
+    <section class="section-padding bg-dark-gray">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-subtitle">Cinematic Motion</span>
+                <h2 class="section-title">Videography Services</h2>
+                <p class="text-gray mx-auto" style="max-width: 600px;">Capture dynamic motion, high-fidelity sound, and gorgeous aerial views. We craft stories that breathe life into screens.</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Video 1: Wedding Cinematic Videos -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoj4tUwHVjT2XACA5dCxBDukvFy-2tewULzzLN0sh4xQ&s=10" alt="Wedding Cinematic Video">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-clapperboard fs-3"></i></div>
+                            <h4 class="service-title">Wedding Cinematic Videos</h4>
+                            <p class="service-desc">True Hollywood-style movie trailers and highlight films capturing the speech voiceovers, smiles, tears, and dances.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Wedding Cinematic Videos" data-content="We produce high-definition 4K films. This includes audio recording of vows/speeches, premium sound licensing, multi-camera edits, and professional color grading.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 2: Event Videography -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://www.bookeventz.com/blog/wp-content/uploads/Event-Videography.png" alt="Event Videography">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-video fs-3"></i></div>
+                            <h4 class="service-title">Event Videography</h4>
+                            <p class="service-desc">Multi-angle video coverage for corporate launch events, live music gigs, birthdays, and public presentations.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Event Videography" data-content="Includes continuous audio visual feeds, handheld stabilizer shots, crowd reviews, and a 3-5 minute high-impact teaser for corporate PR.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 3: Drone Shoots -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/29/02/07/drone-1866742_640.jpg" alt="Drone Shoot">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-helicopter fs-3"></i></div>
+                            <h4 class="service-title">Drone Shoots</h4>
+                            <p class="service-desc">Stunning, high-altitude aerial videos and landscape portraits captured by certified, licensed drone pilots.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Drone Shoots" data-content="Enhance your wedding album or real estate catalogs with wide sweeping drone movements. We observe all local safety aviation regulations.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 4: Reels Creation -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3rVlkw_9W6avI3621hc6lQlLLeLszFwCEEQR4cp343g&s=10" alt="Reels Creation">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-mobile-screen-button fs-3"></i></div>
+                            <h4 class="service-title">Reels & TikTok Creation</h4>
+                            <p class="service-desc">Aesthetic, fast-paced vertical video assets optimized with trending cuts, sound sync, and color grading for socials.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Reels & TikTok Creation" data-content="Perfect for digital influencers and brands. We script, record with mobile or mirrorless cameras, edit, sync beats, and add modern subtitles.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 5: Promotional Videos -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://brandstory.in/digital/assets/images/promo-video-production-company/promo-vid-sec-img.png" alt="Promotional Videos">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-bullhorn fs-3"></i></div>
+                            <h4 class="service-title">Promotional Videos</h4>
+                            <p class="service-desc">High-conversion commercial video spots for products, restaurant menus, spa openings, and lifestyle brands.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Promotional Videos" data-content="We handle storyboarding, casting direction, premium audio mixing, logo overlays, call-to-actions, and produce versions fitted for Facebook, YouTube, and TV.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Editing Services Section -->
+    <section class="section-padding bg-dark-black">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-subtitle">Post Production</span>
+                <h2 class="section-title">Editing & Album Designing</h2>
+                <p class="text-gray mx-auto" style="max-width: 600px;">Transforming raw media into polished luxury content. We detail skin textures, color grade tones, and design custom books.</p>
+            </div>
+            
+            <div class="row g-4 justify-content-center">
+                <!-- Edit 1: Photo Editing -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNKwB7T7xxUo4tyi6gXtzgMrCXGJdCX3vxZU3QSONwtlduP4XHE5JA1Gs&s=10" alt="Photo Editing">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-sliders fs-3"></i></div>
+                            <h4 class="service-title">Premium Photo Editing</h4>
+                            <p class="service-desc">High-end frequency separation skin retouching, background cleaning, object removal, and custom luxury color tones.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Premium Photo Editing" data-content="We use Photoshop and Lightroom to retouch hair flyaways, clean backgrounds, balance skin tones, and apply specific editorial filters while keeping a natural appearance.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Edit 2: Album Designing -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://i.pinimg.com/736x/c5/70/b7/c570b7ae035cdac3e10da05f7e49b476.jpg" alt="Album Designing">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-book-open-reader fs-3"></i></div>
+                            <h4 class="service-title">Aesthetic Album Designing</h4>
+                            <p class="service-desc">Custom-curated coffee table photo books, luxury leather-bound wedding albums, and minimal digital PDF presentations.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Aesthetic Album Designing" data-content="We arrange photos chronologically with a clean layout. We offer prints on archival matte or satin paper, bound in premium leather, wood, or linen covers.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Edit 3: Video Editing -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="https://png.pngtree.com/png-vector/20240319/ourmid/pngtree-video-editor-working-on-laptop-at-workplace-png-image_12007933.png" alt="Video Editing">
+                            <div class="service-overlay"></div>
+                        </div>
+                        <div class="service-body">
+                            <div class="text-gold mb-3"><i class="fa-solid fa-wand-magic-sparkles fs-3"></i></div>
+                            <h4 class="service-title">Professional Video Editing</h4>
+                            <p class="service-desc">Story-driven video cutting, premium audio noise cleaning, royalty-free audio sync, color grading, and titles/SFX additions.</p>
+                            <button type="button" class="btn btn-outline-gold w-100" data-bs-toggle="modal" data-bs-target="#readMoreModal" data-title="Professional Video Editing" data-content="Our editors work on DaVinci Resolve and Premiere Pro to color grade log footage, clean up background noise, overlay cinematic sound effects, and output web-ready formats.">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Modal for "Read More" details -->
+    <div class="modal fade" id="readMoreModal" tabindex="-1" aria-labelledby="readMoreModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark-gray border border-gold" style="border-radius: 12px; box-shadow: var(--gold-glow);">
+                <div class="modal-header border-bottom border-secondary border-opacity-10">
+                    <h5 class="modal-title text-gold text-uppercase fw-bold" id="readMoreModalLabel">Service Details</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="modalDetailContent" class="text-gray"></p>
+                </div>
+                <div class="modal-footer border-top border-secondary border-opacity-10">
+                    <button type="button" class="btn btn-dark-premium" data-bs-dismiss="modal">Close</button>
+                    <a href="booking.html" class="btn btn-gold">Book This Service</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <!-- Column 1: Branding -->
+                <div class="col-lg-4 col-md-6">
+                    <a class="footer-logo" href="index.html">
+                        <i class="fa-solid fa-camera-retro me-2 text-gold"></i>DANILO <span>STUDIO</span>
+                    </a>
+                    <p class="footer-desc">Specializing in capturing unforgettable memories with creativity and absolute professionalism. Capturing history, one lens splash at a time.</p>
+                    <div class="footer-social-icons">
+                        <a href="https://instagram.com" target="_blank" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank" class="footer-social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://wa.me/1234567890" target="_blank" class="footer-social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Column 2: Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Studio</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="coaching.html">Coaching Program</a></li>
+                        <li><a href="booking.html">Book Session</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Services Offered -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Our Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Wedding Photography</a></li>
+                        <li><a href="services.html">Pre-Wedding Shoots</a></li>
+                        <li><a href="services.html">Cinematic Videography</a></li>
+                        <li><a href="services.html">Drone Event Shoots</a></li>
+                        <li><a href="services.html">Luxury Product Shoots</a></li>
+                        <li><a href="services.html">Album Designing & Editing</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4: Contact Details -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Studio Contact</h5>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>123 Elegance Boulevard, Suite 500, Milan, Italy</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>7997844537</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>lillygracepilli@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-clock"></i>
+                            <span>Mon - Sat: 09:00 AM - 07:00 PM<br>Sunday: Closed</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2026 Photo Studio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS JS for Animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 120
+        });
+        
+        // Modal Event Listener to populate content dynamically
+        const readMoreModal = document.getElementById('readMoreModal');
+        if (readMoreModal) {
+            readMoreModal.addEventListener('show.bs.modal', function (event) {
+                const button = event.relatedTarget;
+                const title = button.getAttribute('data-title');
+                const content = button.getAttribute('data-content');
+                
+                const modalTitle = readMoreModal.querySelector('.modal-title');
+                const modalBody = readMoreModal.querySelector('#modalDetailContent');
+                
+                modalTitle.textContent = title;
+                modalBody.textContent = content;
+            });
+        }
+    </script>
+    
+    <!-- Custom Main JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
